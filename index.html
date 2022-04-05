@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kakao-clone:금해인 멋사과제</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- kakao 상단 logo -->
+    <div class="logo">
+        <img id="kakao-logo" src="https://mk.kakaocdn.net/dn/together/images/web_login_template_assets/login_logo.png">
+    </div>
+    <!-- main -->
+    <div id="main">
+        <div class="article">
+        <!-- kakao slogan -->
+            <div>
+                <img id="slogan" src="https://mk.kakaocdn.net/dn/together/images/web_login_template_assets/login_txt03.png">
+            </div>
+         <!-- login format -->
+            <div>
+                <form>
+                        <input class="input_type" type="text" name="kakao-id" required minlength="4" value placeholder="카카오메일 아이디, 이메일, 전화번호" >
+                        <input class="input_type" type="text" name="kakao-pw" required minlength="4" value placeholder="비밀번호" >
+                        <div class="remain">
+                            <input id="remain_check" type="checkbox" id="stay-loggedin" name="stay-loggedin">
+                            <label for="stay-loggedin">로그인 상태 유지</label>
+                          </div>
+                        <!--btn -->
+                        <button id="login-btn" type="button">로그인</button>
+                        <div class="or"> 또는 </div>
+                        <button id="qr-btn" type="button"><img id="qr-img" src="images/qr.png"> QR코드 로그인</button>
+                        </fieldset>
+                </form>
+                <!-- 로그인 하단메뉴 -->
+                <div class="bottom-menu">
+                    <a href="https://accounts.kakao.com/weblogin/create_account?continue=https%3A%2F%2Ftogether.kakao.com%2F&is_iframe=false&service=together">회원가입</a>
+                    <ul class="account">
+                        <li>
+                            <a href="https://accounts.kakao.com/weblogin/find_account_guide?continue=https%3A%2F%2Ftogether.kakao.com%2F&is_iframe=false&service=together">카카오계정</a>
+                        </li>
+                        <li>
+                            <a href="https://accounts.kakao.com/weblogin/find_password?continue=https%3A%2F%2Ftogether.kakao.com%2F&is_iframe=false&service=together">비밀번호 찾기</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>                                              
+        <!-- 하단메뉴 -->
+    <div class="footer">
+        <div class="footer-menu">
+                <a href="https://www.kakao.com/policy/terms?lang=ko" class="link_info">이용약관</a>
+                <a href="https://www.kakao.com/policy/privacy?lang=ko" class="link_info" id="link_policy"><b>개인정보 처리방침</b></a>
+                <a href="https://www.kakao.com/policy/oppolicy?lang=ko" class="link_info">운영정책</a>
+                <a href="https://cs.kakao.com/" class="link_info">고객센터</a>
+                <a href="https://www.kakao.com/notices?lang=ko" class="link_info">공지사항</a>
+            <span class="lang">
+                <ul>
+                    <li>
+                        <a href="?continue=https%3A%2F%2Ftogether.kakao.com%2F&amp;lang=ko">한국어</a>
+                    </li>
+                    <li>
+                        <a href="?continue=https%3A%2F%2Ftogether.kakao.com%2F&amp;lang=en">English</a>
+                    </li>
+                    <li>
+                        <a href="?continue=https%3A%2F%2Ftogether.kakao.com%2F&amp;lang=ja">日本語</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <!-- copyright -->
+        <div class="copyright">Copyright ©
+            <a href="https://www.kakaocorp.com/?lang=ko"><b>Kakao Corp.</b></a>
+            All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

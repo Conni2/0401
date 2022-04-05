@@ -1,0 +1,235 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    letter-spacing: -0.03em;
+}
+
+body{
+    background-image: url("https://mud-kage.kakaocdn.net/dn/cwQvji/btqnoJ4g36y/NcEm6gwjDzMKq7qAjkQIR0/img.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border: none;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#kakao-logo{
+    width: 136px;
+    height: 30px;
+    vertical-align: top;
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+#main{
+    width: auto;
+    max-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 380px;
+    height: 540px;
+    padding: 59px 69px 49px 69px;
+    border: 1px;
+    margin: 40px 0;
+}
+
+#slogan{
+    width: 270px;
+    height: 93px;
+    margin: 0 0 30px 0;
+}
+
+input{
+    width: 380px;
+    height: 47px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+}
+
+.remain{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 20px;
+    margin: 25px 0;
+}
+
+#remain_check{
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 0;
+}
+
+label.remain{
+    font-size: 14px;
+    color: #ffffff;
+    width: 92.125px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.input_type:focus{
+    outline:none;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: rgba(255,255,255,0.7);
+    font-size: 15px;
+}
+
+#login-btn{
+    width: 380px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #191919;
+    background-color: #fee500;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
+
+#login-btn:active{
+    background-color: #F0D700;
+}
+
+.or{
+    width: 380px;
+    height: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 15px 0;
+    font-size: 12px;
+    box-sizing: content-box;
+}
+
+.or:before, .or:after{
+    display: inline-block;
+    width: calc(50% - 20px);
+    height: 1px;
+    margin: 8px 0;
+    vertical-align:top;
+    content: '';
+    background-color: rgba(255,255,255,0.22);
+}
+
+#qr-btn{
+    width: 380px;
+    height: 50px;
+    border-radius:4px;
+    font-size: 15px;
+    color: #191919;
+    background-color:#f6f6f6;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr-btn:hover{
+    background-color: #E7E7E7;
+}
+
+#qr-img{
+    width: 16px;
+    height: 16px;
+    margin: 0 7px 0 0;
+}
+
+
+a{
+    text-decoration-line: none;
+    font-size: 12px;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.bottom-menu{
+    width:380px;
+    height: 18px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.account>li::after{
+    content: "|";
+    display: inline-block;
+    width: 1px;
+    height:10px;
+    margin: 4px 10px;
+    color:#e5e5e5;
+}
+
+.account>li:last-child::after{
+    content: "";
+    display: inline-block;
+    margin: 0;
+}
+
+.footer{
+    box-sizing: content-box;
+    height: 46px;
+    padding: 0 0 20px 0; 
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.footer-menu .link_info{
+    box-sizing: content-box;
+    width: 42.245px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+#link_policy{
+    width: 86.727px;
+    height: 20px;
+    padding:0 10px;
+}
+
+.lang{
+    padding: 0 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 18px;
+    margin: 8px 0 0 0;
+    font-size: 11px;
+    letter-spacing: 0em;
+}
